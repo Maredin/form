@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>browser</title>
+   <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="header container center">
+  <h1>Добро пожаловать в <span class="header__viki">Википедию</span></h1>
+</header>
+
+<main class="main container center">
+  <div class="main__descr">
+    <div class="main__descr-title"><h2>Фронтенд</h2></div>
+    <div class="main__descr-text"><b>Фронтенд</b> (англ. frontend) — презентационная часть информационной или программной системы, её пользовательский интерфейс и связанные с ним компоненты; применяется в соотношении с базисной частью системы, её внутренней реализацией, называемой в этом случае бэкендом (англ. backend).
+
+      <br><br>Разделение программных систем на фронтенд и бэкенд — одно из стандартных решений для архитектуры программного обеспечения, связанное в программной инженерии с принципом разделения ответственности между внешним представлением и внутренней реализацией. Как правило, бэкенд реализует API, используемые фронтендом, и таким образом фронтенд-разработчику не нужно знать особенности реализации внутренней части, а бэкенд-разработчику — интерфейсные решения. Кроме того, такое разделение позволяет использовать различные инструменты для реализации внутренней и внешней части системы, более эффективные для соответствующих задач. Например, в веб-разработке к технологиям фронтенда относятся HTML, CSS, JavaScript; а бэкенд может быть реализован на PHP, Java, Python, JavaScript (Node.js).
+      
+      <br><br>Иногда под бэкендом в контексте информационных систем понимается административная часть системы (включая интерфейс), не отображаемая конечному пользователю, в частности, такая терминология используется в системах управления содержимым (в этом случае разделение ближе к используемому в сфере организационного управления, где бэк-офис отвечает за административные функции, а фронт-офис — за непосредственную работу с заказчиками).
+      
+      <br><br>Специфическое разделение применяется в инфраструктуре компиляции LLVM: под «фронтендами» в нём понимаются трансляторы исходных кодов программ различных языков программирования в универсальное промежуточное представление, тогда как единый бэкенд, работающий уже только с промежуточным представлением, непосредственно занимается оптимизацией, интерпретацией, компиляцией, компоновкой.</div>
+  </div>
+
+  <div class="main__comments">
+    <h2>Коментарии:</h2>
+    <div class="main__comments-flex flex sb">
+    
+      <div class="main__comments-conteyner">
+
+<!--         <div class="main__comments-cart">
+          <div class="main__comments-cart_title flex sb">
+            <div class="main__comments-cart_name">Marat</div>
+            <div class="main__comments-cart_data">Дата: 13.03.2023</div>
+          </div>
+          <div class="main__comments-cart_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, nemo. Cum totam minus cupiditate voluptate officiis obcaecati dolorum aliquid eaque sed. Deleniti distinctio cumque porro eligendi esse totam dolores sed.
+          </div>
+        </div> -->
+
+      </div>
+
+      <div class="main__form">
+        <form>
+          <div class="main__form-title flex sb">
+            <div class="form__name flex">
+              <label for="name">Имя:</label>
+              <input type="name" class="form__name-name" id="name" placeholder="Введите Ваше имя" required autocomplete ="off">
+            </div>
+
+            <div class="form__data flex">
+              <label for="data">Дата:</label>
+              <input type="date" name="data" id="data" class="form__name-data">
+            </div>
+
+          </div>
+
+          <div class="form__text">
+            <textarea class="form__text-text" placeholder="Введите комментарий" required name="comment"></textarea>
+          </div>
+
+          <div class="form__btn">
+            <input type="submit" value="Отправить"class="form__btn-btn" id="btnForm">
+            <div class="lableBtn">Ctrl + Enter (Отправить)</div>
+          </div>
+      </form>
+      <div class="error">Ошибка! Не все поля заполнены</div>
+      </div>
+    </div>
+  </div>
+
+
+  
+</main>
+
+<script src="script/main.js"></script>
+</body>
+</html>
