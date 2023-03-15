@@ -68,6 +68,9 @@ body {
   border-bottom: 1px solid silver;
   font-style: 20px;
 }
+.main__comments-flex {
+  flex-wrap: wrap;
+}
 .form__name-name {
   padding: 1px;
   padding-left: 15px;
